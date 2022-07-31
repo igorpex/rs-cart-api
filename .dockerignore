@@ -1,1 +1,12 @@
+# Node modeles is not required, as will be installed
 node_modules/
+# Dist is not required, as it will be built with RUN npm run build
+dist/
+# File is required locally only
+.elasticbeanstalk/
+# .Git is excluded for security
+.git/
+# Not used
+test/
+# My internal file
+.awscred
