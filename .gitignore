@@ -2,6 +2,10 @@
 /dist
 /node_modules
 
+.awscred
+.env
+.git/
+
 # Logs
 logs
 *.log
